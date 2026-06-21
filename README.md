@@ -145,3 +145,25 @@ DB_PATH=resumeai.db
 OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=llama3.2:3b
 ```
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+![Home Page](home-page.png)
+
+### 🔐 Login Page
+![Login Page](login-page.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### 📄 Resume Upload
+![Resume Upload](upload-resume.png)
+
+### 🤖 Resume Analysis Result
+![Analysis Result](analysis-result.png)
+
+### 📈 Detailed Analysis
+![Detailed Analysis](analysis-result2.png)
+
+### 👨‍💼 Admin Panel
+![Admin Panel](admin-panel.png)
