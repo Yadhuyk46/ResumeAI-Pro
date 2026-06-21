@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#060910" />
+    <meta name="description" content="ResumeAI Pro — AI-powered resume analysis and fixing" />
+    <title>ResumeAI Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --bg: #060910; --card: #0d1117; --surface: #0a0f1a;
+        --border: #1e293b; --text: #e2e8f0; --text2: #94a3b8;
+        --muted: #475569; --accent: #00e5ff;
+        --mono: 'Fira Code', 'JetBrains Mono', monospace;
+      }
+      body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+      #root { min-height: 100vh; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      input, textarea, select {
+        background: var(--card); border: 1px solid var(--border);
+        color: var(--text); border-radius: 8px; padding: 8px 12px;
+        font-family: inherit; font-size: 13px; outline: none;
+        transition: border-color 0.15s;
+      }
+      input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+      ::-webkit-scrollbar { width: 4px; height: 4px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run ResumeAI Pro.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
